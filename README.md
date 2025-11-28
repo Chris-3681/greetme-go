@@ -10,24 +10,26 @@ Optionally, it can shout the greeting in uppercase.
 
 ## Getting Started
 
+
+clone
 ```bash
-# clone
 git clone https://github.com/Chris-3681/greetme-go.git
 cd greetme-go
-
+```
 # run
+```bash
 go run main.go
 ```
 
 You should see:
-```
+```bash
 Enter your name:
 ```
 
 Type your name and press Enter.
 
 Example output:
-```
+```bash
 Enter your name: Chris
 Hello, Chris! Welcome to Go 🎉
 Generated at: Thu, 27 Nov 2025 21:30:00 EAT
@@ -42,7 +44,7 @@ go run main.go `-- --shout`
 This prints the greeting in uppercase.
 
 Build a Binary
-```
+```bash
 go build -o greetme .
 ./greetme        # Linux/macOS
 greetme.exe      # Windows
